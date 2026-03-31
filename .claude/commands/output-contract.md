@@ -3,7 +3,7 @@
 **Engine:** design-quality-core v1.0.0
 
 When invoked, this surface enforces complete delivery. It is orthogonal to
-design and may be combined with `/taste` or `/redesign`.
+design and may be combined with `/craft` or `/refine`.
 
 ## Use when
 

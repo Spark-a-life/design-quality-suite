@@ -76,6 +76,6 @@ Claude or Codex skill wrappers must remain thin:
 
 ## Publish notes
 
-This repo is community-safe because it does not depend on private WiseGen code.
+This repo is community-safe because it does not depend on any private internal code.
 If a downstream project needs internal governance rules, those should live in a
 separate private reference layer rather than inside the public engine.

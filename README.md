@@ -116,5 +116,4 @@ This repo is designed to be community-publishable:
 
 ## Origin
 
-Built in the WiseGen workspace as a community-facing redesign of three separate
-frontend-oriented skills into one coherent architecture.
+A community contribution. Adapted from an internal governance-driven AI workflow system.

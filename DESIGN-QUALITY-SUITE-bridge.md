@@ -21,8 +21,8 @@ One engine coordinates three surfaces:
 | Component | Role |
 |---|---|
 | `design-quality-core.md` | Dispatches to the right references, preserves stack truth, defines verification |
-| `taste.md` | New build or deliberate frontend direction |
-| `redesign.md` | Existing-project scan, diagnose, fix, verify |
+| `craft.md` | New build or deliberate frontend direction |
+| `refine.md` | Existing-project scan, diagnose, fix, verify |
 | `output-contract.md` | Completeness and continuation contract |
 
 ## Integration map
@@ -42,7 +42,7 @@ The suite sits at the design and delivery-discipline layer:
 ```text
 User intent
    |
-Task surface (/taste, /redesign, /output-contract)
+Task surface (/craft, /refine, /output-contract)
    |
 Design Quality Core
    |

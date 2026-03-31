@@ -2,7 +2,7 @@
 
 **Version:** 1.0.0 | **Date:** 2026-03-31
 
-This is the underlying engine for `/taste`, `/redesign`, and
+This is the underlying engine for `/craft`, `/refine`, and
 `/output-contract`. It defines dispatch, reference loading, stack truth, and
 verification. It is not meant to be invoked directly.
 
@@ -13,7 +13,7 @@ The suite is intentionally split into:
 1. **Engine**
    Shared rules and loading logic live here.
 2. **Task surfaces**
-   `/taste`, `/redesign`, and `/output-contract` add only task-specific
+   `/craft`, `/refine`, and `/output-contract` add only task-specific
    behaviour.
 3. **References**
    Stack-specific and surface-specific rules are loaded only when needed.

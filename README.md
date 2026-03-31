@@ -3,7 +3,7 @@
 An architecture-first design quality system for Claude Code and Codex.
 
 It separates shared design doctrine from task surfaces so frontend guidance does
-not drift across "taste", "redesign", and "output completeness" prompts.
+not drift across "craft", "refine", and "output completeness" prompts.
 
 ## What it does
 
@@ -61,7 +61,7 @@ This repo is intentionally layered:
    `design-quality-core.md` defines dispatch, truth rules, reference loading,
    and verification.
 2. **Task surfaces**
-   `taste.md`, `redesign.md`, and `output-contract.md` define when and how each
+   `craft.md`, `refine.md`, and `output-contract.md` define when and how each
    surface is used.
 3. **References**
    Stack-specific and surface-specific guidance lives in `references/`.
@@ -87,7 +87,7 @@ Compound usage is allowed:
 /output-contract the patch
 ```
 
-In that case, the redesign surface defines the work method and the output
+In that case, the refine surface defines the work method and the output
 contract defines completeness and continuation rules.
 
 ## Repo layout

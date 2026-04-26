@@ -1,0 +1,26 @@
+{
+  "category": "ai-llm",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "claude",
+  "design_system": "https://getdesign.md/claude/design-md",
+  "name": "Claude",
+  "tokens": {
+    "color": {
+      "primary": "#D4A373",
+      "background": "#FEFCF8"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

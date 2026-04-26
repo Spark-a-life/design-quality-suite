@@ -1,9 +1,18 @@
 # /output-contract -- Completeness Surface
 
-**Engine:** design-quality-core v1.0.0
+**Engine:** design-quality-core v1.1.0
 
 When invoked, this surface enforces complete delivery. It is orthogonal to
-design and may be combined with `/craft` or `/refine`.
+design and may be combined with `craft-skill` or `refine-skill`.
+
+## Brand Flag
+
+Use `--brand` to apply brand design tokens for complete delivery:
+
+```
+/output-contract --brand claude
+/output-contract --brand linear.app
+```
 
 ## Use when
 
@@ -19,6 +28,7 @@ design and may be combined with `/craft` or `/refine`.
 - Count the deliverables and ensure they are all present.
 - If the response must stop for length, stop only at a clean boundary and state
   exactly what remains.
+- If `--brand` flag used: apply brand tokens from `references/brands/{brand}/meta.json`
 
 ## Continuation rule
 
@@ -32,7 +42,7 @@ On continuation, resume from that point without recap or duplication.
 
 If used with another design-quality surface:
 
-- the other surface (`/craft` or `/refine`) defines the task method
+- the other surface (`craft-skill` or `refine-skill`) defines the task method
 - `/output-contract` defines completeness and continuation behaviour
 
 It does not replace stack truth, verification, or the shared doctrine.

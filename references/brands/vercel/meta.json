@@ -1,0 +1,26 @@
+{
+  "category": "dev-tools",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "vercel",
+  "design_system": "https://getdesign.md/vercel/design-md",
+  "name": "Vercel",
+  "tokens": {
+    "color": {
+      "primary": "#FFFFFF",
+      "background": "#000000"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

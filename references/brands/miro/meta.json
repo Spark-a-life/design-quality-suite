@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/miro/design-md",
+  "category": "design",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#FFD32A"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "miro",
+  "name": "Miro"
+}

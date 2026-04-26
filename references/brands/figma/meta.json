@@ -1,0 +1,26 @@
+{
+  "category": "design",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "figma",
+  "design_system": "https://getdesign.md/figma/design-md",
+  "name": "Figma",
+  "tokens": {
+    "color": {
+      "primary": "#F24E1E",
+      "background": "#1E1E1E"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

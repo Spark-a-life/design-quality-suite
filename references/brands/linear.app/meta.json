@@ -1,0 +1,63 @@
+{
+  "brand": "linear.app",
+  "name": "Linear",
+  "category": "productivity",
+  "design_system": "https://getdesign.md/linear.app/design-md",
+  "tokens": {
+    "color": {
+      "primary": "#5E6AD2",
+      "alias": "#8459e8",
+      "text": "#091E42",
+      "text_muted": "#6B7280",
+      "background": "#FFFFFF",
+      "background_subtle": "#F7F7F9",
+      "border": "#E5E5E5",
+      "success": "#22C55E",
+      "warning": "#F59E0B",
+      "error": "#EF4444"
+    },
+    "typography": {
+      "font": "Inter, -apple-system, BlinkMacSystemFont, sans-serif",
+      "scale": "11/13/14/16/20/24/28/32",
+      "weight": {
+        "regular": 400,
+        "medium": 500,
+        "semibold": 600,
+        "bold": 700
+      }
+    },
+    "spacing": {
+      "base": "4px",
+      "scale": "4/8/12/16/20/24/32/40/48"
+    },
+    "radius": {
+      "small": "4px",
+      "default": "6px",
+      "large": "8px",
+      "full": "9999px"
+    }
+  },
+  "patterns": {
+    "sidebar": {
+      "width": "240px",
+      "background": "#F7F7F9",
+      "border_right": "1px solid #E5E5E5"
+    },
+    "list_item": {
+      "height": "32px",
+      "padding": "0 12px"
+    },
+    "button": {
+      "height": "28px",
+      "padding": "0 10px",
+      "radius": "6px",
+      "font_size": "13px"
+    },
+    "input": {
+      "height": "32px",
+      "radius": "6px",
+      "border": "1px solid #E5E5E5"
+    }
+  },
+  "tags": ["dashboard", "minimal", "b2b", "issue-tracking", "project-management"]
+}

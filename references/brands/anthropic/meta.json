@@ -1,0 +1,25 @@
+{
+  "category": "ai-llm",
+  "name": "Anthropic",
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tokens": {
+    "spacing": {
+      "base": "4px"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "color": {
+      "primary": "#FFB561"
+    }
+  },
+  "design_system": "https://getdesign.md/anthropic/design-md",
+  "brand": "anthropic"
+}

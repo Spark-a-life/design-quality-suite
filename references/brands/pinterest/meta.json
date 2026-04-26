@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/pinterest/design-md",
+  "category": "retail",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#E60023"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "pinterest",
+  "name": "Pinterest"
+}

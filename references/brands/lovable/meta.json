@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/lovable/design-md",
+  "category": "dev-tools",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#8250F9"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "lovable",
+  "name": "Lovable"
+}

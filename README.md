@@ -3,17 +3,17 @@
 An architecture-first design quality system for Claude Code and Codex.
 
 It separates shared design doctrine from task surfaces so frontend guidance does
-not drift across "craft", "refine", and "output completeness" prompts.
+not drift among `craft-skill`, `refine-skill`, and `output-contract`.
 
 ## What it does
 
-One engine, three surfaces:
+One engine, two skills, one command:
 
-| Surface | Best for | Output posture |
-|---|---|---|
-| `/craft` | New UI direction or a fresh frontend pass | Build or refine a surface from first principles without inventing stack changes |
-| `/refine` | Existing app or website | Scan, diagnose, fix, and verify without rewriting the whole project |
-| `/output-contract` | Any implementation task requiring full delivery | Enforce completeness, ban placeholder output, and define clean continuation rules |
+| Surface | Entry point | Best for | Output posture |
+|---|---|---|---|
+| Craft | `skills/craft-skill/SKILL.md` | New UI direction or a fresh frontend pass | Build or refine a surface from first principles without inventing stack changes |
+| Refine | `skills/refine-skill/SKILL.md` | Existing app or website | Scan, diagnose, fix, and verify without rewriting the whole project |
+| Output contract | `.claude/commands/output-contract.md` | Any implementation task requiring full delivery | Enforce completeness, ban placeholder output, and define clean continuation rules |
 
 All three surfaces are powered by one canonical engine:
 
@@ -21,12 +21,15 @@ All three surfaces are powered by one canonical engine:
 
 ## Canonical copy
 
-**Source of truth:** `.claude/commands/`
+**Engine + root command:** `.claude/commands/`
 
 - `design-quality-core.md` -- engine
-- `craft.md` -- `/craft`
-- `refine.md` -- `/refine`
 - `output-contract.md` -- `/output-contract`
+
+**Skill surfaces:** `skills/`
+
+- `craft-skill/SKILL.md` -- craft surface
+- `refine-skill/SKILL.md` -- refine surface
 
 **References:** `references/`
 
@@ -37,8 +40,8 @@ All three surfaces are powered by one canonical engine:
 - `landing-mode.md`
 - `verification.md`
 
-**Mirrors:** copy the four command files into `.claude/commands/` of any target
-project. Run the sync script to regenerate mirrors from the canonical set:
+**Mirrors:** copy the remaining root command files into `.claude/commands/` of
+any target project. Run the sync script to regenerate those mirrors:
 
 ```powershell
 powershell -File "scripts/sync-design-quality-commands.ps1"
@@ -49,9 +52,9 @@ files above. Behaviour should not be duplicated in wrapper bodies.
 
 ## Install (other projects)
 
-Copy the four command files under `.claude/commands/`, plus any references you
-intend to use, into your target project. Keep wrappers thin and point them at
-the canonical engine and command files.
+Copy `design-quality-core.md` and `output-contract.md` under `.claude/commands/`
+if the target project needs the root command layer. Install thin `craft-skill`
+and `refine-skill` wrappers that point at the canonical skills above.
 
 ## Architecture
 
@@ -61,8 +64,8 @@ This repo is intentionally layered:
    `design-quality-core.md` defines dispatch, truth rules, reference loading,
    and verification.
 2. **Task surfaces**
-   `craft.md`, `refine.md`, and `output-contract.md` define when and how each
-   surface is used.
+   `skills/craft-skill/SKILL.md`, `skills/refine-skill/SKILL.md`, and
+   `output-contract.md` define when and how each surface is used.
 3. **References**
    Stack-specific and surface-specific guidance lives in `references/`.
 4. **Wrappers**
@@ -74,21 +77,9 @@ contradict one another, or duplicate large blocks of guidance.
 
 ## Usage
 
-```text
-/craft the high-command dashboard
-/refine the analytics shell
-/output-contract the frontend migration plan
-```
-
-Compound usage is allowed:
-
-```text
-/refine the settings page
-/output-contract the patch
-```
-
-In that case, the refine surface defines the work method and the output
-contract defines completeness and continuation rules.
+Use `craft-skill` or `refine-skill` through your host environment's skill
+loader, and combine either one with `/output-contract` when you need the
+completeness contract as well.
 
 ## Repo layout
 
@@ -110,7 +101,7 @@ This repo is designed to be community-publishable:
 - architecture-first
 - canonical source of truth
 - thin wrappers
-- explicit sync path
+- explicit sync path for the remaining root commands
 - stack truth before aesthetics
 - verification after implementation
 

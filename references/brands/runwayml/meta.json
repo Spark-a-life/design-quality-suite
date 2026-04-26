@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/runwayml/design-md",
+  "category": "retail",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#00D4AA"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "runwayml",
+  "name": "Runway ML"
+}

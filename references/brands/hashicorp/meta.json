@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/hashicorp/design-md",
+  "category": "backend",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#60B09C"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "hashicorp",
+  "name": "HashiCorp"
+}

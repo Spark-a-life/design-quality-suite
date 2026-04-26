@@ -1,0 +1,26 @@
+{
+  "category": "dev-tools",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "cursor",
+  "design_system": "https://getdesign.md/cursor/design-md",
+  "name": "Cursor",
+  "tokens": {
+    "color": {
+      "primary": "#10A37F",
+      "background": "#1E1E1E"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

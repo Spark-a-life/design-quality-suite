@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/wise/design-md",
+  "category": "fintech",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#00C2FF"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "wise",
+  "name": "Wise"
+}

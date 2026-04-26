@@ -1,28 +1,34 @@
-# /craft -- Design Direction Surface
+---
+name: craft-skill
+description: >
+  Design Quality Suite skill for new UI direction or fresh frontend passes.
+  Use when building a new frontend surface, upgrading the visual direction of
+  an existing screen, or shaping a component language without changing the
+  underlying stack.
+metadata:
+  version: "1.1.0"
+  canonical_repo: "ape-community/design-quality-suite"
+  engine: "design-quality-core v1.1.0"
+  surface: "craft"
+  created: "2026-03-31"
+  updated: "2026-04-26"
+---
 
-**Engine:** design-quality-core v1.1.0
+# craft-skill -- canonical surface
 
-When invoked, this surface applies the Design Quality Suite to a new UI pass or
-frontend refinement task.
+Read `../../.claude/commands/design-quality-core.md` first and follow its
+loading order exactly (v1.1.0 includes brand dispatch).
 
-## Read order
-
-1. `.claude/commands/design-quality-core.md` (v1.1.0)
-2. `references/shared-doctrine.md`
-3. one stack reference (`references/stack-react-vite-css.md` or `references/stack-next-tailwind.md`)
-4. one surface reference (`references/dashboard-mode.md` or `references/landing-mode.md`)
-5. [IF --brand] `references/brands/{brand}/meta.json`
-6. [ALWAYS] Append audit JSONL to `audit/brand-evaluations/brand-eval-{date}.jsonl` (repo root)
+Then apply this surface.
 
 ## Brand Flag
 
 Use `--brand` to match a specific design system:
 
 ```
-/craft --brand linear.app
-/craft --brand figma
-/craft --brand stripe
-/craft --brand claude
+craft-skill --brand linear.app
+craft-skill --brand figma
+craft-skill --brand stripe
 ```
 
 Brand tokens override defaults for: colors, typography, spacing, patterns.
@@ -47,7 +53,8 @@ Brand tokens override defaults for: colors, typography, spacing, patterns.
 
 ## Design intent
 
-- Create a strong visual direction without becoming decorative for its own sake.
+- Create a strong visual direction without becoming decorative for its own
+  sake.
 - Match the surface type:
   - dashboards: state clarity, hierarchy, signal discipline
   - landing pages: narrative rhythm, visual emphasis, controlled expression
@@ -60,5 +67,5 @@ Brand tokens override defaults for: colors, typography, spacing, patterns.
 - shift a dashboard into a marketing layout
 - force a full rewrite because the current UI is imperfect
 - produce default AI patterns such as three equal cards, purple glow shells, or
-  center-stacked hero blocks unless the user explicitly asks for them
+  centre-stacked hero blocks unless the user explicitly asks for them
 - use brand aesthetics that conflict with detected stack (warn if conflict detected)

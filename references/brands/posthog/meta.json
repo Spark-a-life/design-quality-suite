@@ -1,0 +1,26 @@
+{
+  "category": "productivity",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "posthog",
+  "design_system": "https://getdesign.md/posthog/design-md",
+  "name": "PostHog",
+  "tokens": {
+    "color": {
+      "primary": "#F1C40F",
+      "background": "#1A1A1A"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

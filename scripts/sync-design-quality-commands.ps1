@@ -1,4 +1,4 @@
-# Sync design-quality-suite slash commands from the canonical set to a target project.
+# Sync the remaining design-quality-suite root commands to a target project.
 # Canonical: .claude/commands/ (repo root)
 # Usage:     powershell -File "scripts/sync-design-quality-commands.ps1" [-TargetRoot "<path>"]
 #
@@ -21,8 +21,6 @@ if ($TargetRoot -eq "") {
 
 $files = @(
     "design-quality-core.md",
-    "craft.md",
-    "refine.md",
     "output-contract.md"
 )
 

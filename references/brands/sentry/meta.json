@@ -1,0 +1,26 @@
+{
+  "category": "productivity",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "sentry",
+  "design_system": "https://getdesign.md/sentry/design-md",
+  "name": "Sentry",
+  "tokens": {
+    "color": {
+      "primary": "#362D59",
+      "background": "#FAFBFC"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "category": "design",
+  "name": "Clay",
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tokens": {
+    "spacing": {
+      "base": "4px"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "color": {
+      "primary": "#18181B"
+    }
+  },
+  "design_system": "https://getdesign.md/clay/design-md",
+  "brand": "clay"
+}

@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/bmw/design-md",
+  "category": "automotive",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#0066B1"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "bmw",
+  "name": "BMW"
+}

@@ -1,0 +1,25 @@
+{
+  "category": "ai-llm",
+  "name": "OpenAI",
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tokens": {
+    "spacing": {
+      "base": "4px"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "color": {
+      "primary": "#000000"
+    }
+  },
+  "design_system": "https://getdesign.md/openai/design-md",
+  "brand": "openai"
+}

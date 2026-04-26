@@ -1,0 +1,893 @@
+{
+  "author": "Dr Will",
+  "total_brands": 63,
+  "last_updated": "2026-04-26",
+  "schema_version": "1.0",
+  "brands": [
+    {
+      "colors": {
+        "primary": "#FF5A5F"
+      },
+      "name": "Airbnb",
+      "description": "Airbnb design system",
+      "design_md_url": "https://getdesign.md/airbnb/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "airbnb"
+    },
+    {
+      "colors": {
+        "primary": "#18B4E0"
+      },
+      "name": "Airtable",
+      "description": "Airtable design system",
+      "design_md_url": "https://getdesign.md/airtable/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "airtable"
+    },
+    {
+      "colors": {
+        "primary": "#FFB561"
+      },
+      "name": "Anthropic",
+      "description": "Anthropic design system",
+      "design_md_url": "https://getdesign.md/anthropic/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "anthropic"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "Apple",
+      "description": "Apple design system",
+      "design_md_url": "https://getdesign.md/apple/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "apple"
+    },
+    {
+      "colors": {
+        "primary": "#0066B1"
+      },
+      "name": "BMW",
+      "description": "BMW design system",
+      "design_md_url": "https://getdesign.md/bmw/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "bmw"
+    },
+    {
+      "colors": {
+        "primary": "#25E2C0"
+      },
+      "name": "Cal.com",
+      "description": "Cal.com design system",
+      "design_md_url": "https://getdesign.md/cal/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "cal"
+    },
+    {
+      "colors": {
+        "primary": "#D4A373"
+      },
+      "name": "Claude",
+      "description": "Claude design system",
+      "design_md_url": "https://getdesign.md/claude/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "claude"
+    },
+    {
+      "colors": {
+        "primary": "#18181B"
+      },
+      "name": "Clay",
+      "description": "Clay design system",
+      "design_md_url": "https://getdesign.md/clay/design-md",
+      "category": "design",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "clay"
+    },
+    {
+      "colors": {
+        "primary": "#FFCC00"
+      },
+      "name": "ClickHouse",
+      "description": "ClickHouse design system",
+      "design_md_url": "https://getdesign.md/clickhouse/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "clickhouse"
+    },
+    {
+      "colors": {
+        "primary": "#F04A98"
+      },
+      "name": "Cohere",
+      "description": "Cohere design system",
+      "design_md_url": "https://getdesign.md/cohere/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "cohere"
+    },
+    {
+      "colors": {
+        "primary": "#0052FF"
+      },
+      "name": "Coinbase",
+      "description": "Coinbase design system",
+      "design_md_url": "https://getdesign.md/coinbase/design-md",
+      "category": "fintech",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "coinbase"
+    },
+    {
+      "colors": {
+        "primary": "#7B61FF"
+      },
+      "name": "Composio",
+      "description": "Composio design system",
+      "design_md_url": "https://getdesign.md/composio/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "composio"
+    },
+    {
+      "colors": {
+        "primary": "#10A37F"
+      },
+      "name": "Cursor",
+      "description": "Cursor design system",
+      "design_md_url": "https://getdesign.md/cursor/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "cursor"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "ElevenLabs",
+      "description": "ElevenLabs design system",
+      "design_md_url": "https://getdesign.md/elevenlabs/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "elevenlabs"
+    },
+    {
+      "colors": {
+        "primary": "#000020"
+      },
+      "name": "Expo",
+      "description": "Expo design system",
+      "design_md_url": "https://getdesign.md/expo/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "expo"
+    },
+    {
+      "colors": {
+        "primary": "#CC0000"
+      },
+      "name": "Ferrari",
+      "description": "Ferrari design system",
+      "design_md_url": "https://getdesign.md/ferrari/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "ferrari"
+    },
+    {
+      "colors": {
+        "primary": "#F24E1E"
+      },
+      "name": "Figma",
+      "description": "Figma design system",
+      "design_md_url": "https://getdesign.md/figma/design-md",
+      "category": "design",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "figma"
+    },
+    {
+      "colors": {
+        "primary": "#00E5FF"
+      },
+      "name": "Framer",
+      "description": "Framer design system",
+      "design_md_url": "https://getdesign.md/framer/design-md",
+      "category": "design",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "framer"
+    },
+    {
+      "colors": {
+        "primary": "#238636"
+      },
+      "name": "GitHub",
+      "description": "GitHub design system",
+      "design_md_url": "https://getdesign.md/github/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "version-control",
+        "devops"
+      ],
+      "slug": "github"
+    },
+    {
+      "colors": {
+        "primary": "#60B09C"
+      },
+      "name": "HashiCorp",
+      "description": "HashiCorp design system",
+      "design_md_url": "https://getdesign.md/hashicorp/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "hashicorp"
+    },
+    {
+      "colors": {
+        "primary": "#0530AD"
+      },
+      "name": "IBM",
+      "description": "IBM design system",
+      "design_md_url": "https://getdesign.md/ibm/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "ibm"
+    },
+    {
+      "colors": {
+        "primary": "#1F8DED"
+      },
+      "name": "Intercom",
+      "description": "Intercom design system",
+      "design_md_url": "https://getdesign.md/intercom/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "intercom"
+    },
+    {
+      "colors": {
+        "primary": "#5741D9"
+      },
+      "name": "Kraken",
+      "description": "Kraken design system",
+      "design_md_url": "https://getdesign.md/kraken/design-md",
+      "category": "fintech",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "kraken"
+    },
+    {
+      "colors": {
+        "primary": "#FFB800"
+      },
+      "name": "Lamborghini",
+      "description": "Lamborghini design system",
+      "design_md_url": "https://getdesign.md/lamborghini/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "lamborghini"
+    },
+    {
+      "colors": {
+        "primary": "#5E6AD2"
+      },
+      "name": "Linear",
+      "description": "Linear design system",
+      "design_md_url": "https://getdesign.md/linear.app/design-md",
+      "category": "productivity",
+      "tags": [
+        "dashboard",
+        "minimal",
+        "b2b",
+        "issue-tracking",
+        "project-management"
+      ],
+      "slug": "linear.app"
+    },
+    {
+      "colors": {
+        "primary": "#8250F9"
+      },
+      "name": "Lovable",
+      "description": "Lovable design system",
+      "design_md_url": "https://getdesign.md/lovable/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "lovable"
+    },
+    {
+      "colors": {
+        "primary": "#6C61AB"
+      },
+      "name": "MiniMax",
+      "description": "MiniMax design system",
+      "design_md_url": "https://getdesign.md/minimax/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "minimax"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "Mintlify",
+      "description": "Mintlify design system",
+      "design_md_url": "https://getdesign.md/mintlify/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "mintlify"
+    },
+    {
+      "colors": {
+        "primary": "#FFD32A"
+      },
+      "name": "Miro",
+      "description": "Miro design system",
+      "design_md_url": "https://getdesign.md/miro/design-md",
+      "category": "design",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "miro"
+    },
+    {
+      "colors": {
+        "primary": "#1A1A1A"
+      },
+      "name": "Mistral AI",
+      "description": "Mistral AI design system",
+      "design_md_url": "https://getdesign.md/mistral.ai/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "mistral.ai"
+    },
+    {
+      "colors": {
+        "primary": "#47A248"
+      },
+      "name": "MongoDB",
+      "description": "MongoDB design system",
+      "design_md_url": "https://getdesign.md/mongodb/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "mongodb"
+    },
+    {
+      "colors": {
+        "primary": "#FFFFFF"
+      },
+      "name": "Notion",
+      "description": "Notion design system",
+      "design_md_url": "https://getdesign.md/notion/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "notion"
+    },
+    {
+      "colors": {
+        "primary": "#76B900"
+      },
+      "name": "NVIDIA",
+      "description": "NVIDIA design system",
+      "design_md_url": "https://getdesign.md/nvidia/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "nvidia"
+    },
+    {
+      "colors": {
+        "primary": "#FFFFFF"
+      },
+      "name": "Ollama",
+      "description": "Ollama design system",
+      "design_md_url": "https://getdesign.md/ollama/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "ollama"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "OpenAI",
+      "description": "OpenAI design system",
+      "design_md_url": "https://getdesign.md/openai/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "openai"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "OpenCode",
+      "description": "OpenCode design system",
+      "design_md_url": "https://getdesign.md/opencode.ai/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "opencode.ai"
+    },
+    {
+      "colors": {
+        "primary": "#E60023"
+      },
+      "name": "Pinterest",
+      "description": "Pinterest design system",
+      "design_md_url": "https://getdesign.md/pinterest/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "pinterest"
+    },
+    {
+      "colors": {
+        "primary": "#F1C40F"
+      },
+      "name": "PostHog",
+      "description": "PostHog design system",
+      "design_md_url": "https://getdesign.md/posthog/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "posthog"
+    },
+    {
+      "colors": {
+        "primary": "#FFFFFF"
+      },
+      "name": "Raycast",
+      "description": "Raycast design system",
+      "design_md_url": "https://getdesign.md/raycast/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "raycast"
+    },
+    {
+      "colors": {
+        "primary": "#FFD700"
+      },
+      "name": "Renault",
+      "description": "Renault design system",
+      "design_md_url": "https://getdesign.md/renault/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "renault"
+    },
+    {
+      "colors": {
+        "primary": "#333333"
+      },
+      "name": "Replicate",
+      "description": "Replicate design system",
+      "design_md_url": "https://getdesign.md/replicate/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "replicate"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "Resend",
+      "description": "Resend design system",
+      "design_md_url": "https://getdesign.md/resend/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "resend"
+    },
+    {
+      "colors": {
+        "primary": "#008062"
+      },
+      "name": "Revolut",
+      "description": "Revolut design system",
+      "design_md_url": "https://getdesign.md/revolut/design-md",
+      "category": "fintech",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "revolut"
+    },
+    {
+      "colors": {
+        "primary": "#00D4AA"
+      },
+      "name": "Runway ML",
+      "description": "Runway ML design system",
+      "design_md_url": "https://getdesign.md/runwayml/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "runwayml"
+    },
+    {
+      "colors": {
+        "primary": "#F36F25"
+      },
+      "name": "Sanity",
+      "description": "Sanity design system",
+      "design_md_url": "https://getdesign.md/sanity/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "sanity"
+    },
+    {
+      "colors": {
+        "primary": "#FFCB0A"
+      },
+      "name": "SEMrush",
+      "description": "SEMrush design system",
+      "design_md_url": "https://getdesign.md/semrush/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "semrush"
+    },
+    {
+      "colors": {
+        "primary": "#362D59"
+      },
+      "name": "Sentry",
+      "description": "Sentry design system",
+      "design_md_url": "https://getdesign.md/sentry/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "sentry"
+    },
+    {
+      "colors": {
+        "primary": "#96BF48"
+      },
+      "name": "Shopify",
+      "description": "Shopify design system",
+      "design_md_url": "https://getdesign.md/shopify/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "shopify"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "SpaceX",
+      "description": "SpaceX design system",
+      "design_md_url": "https://getdesign.md/spacex/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "spacex"
+    },
+    {
+      "colors": {
+        "primary": "#1DB954"
+      },
+      "name": "Spotify",
+      "description": "Spotify design system",
+      "design_md_url": "https://getdesign.md/spotify/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "spotify"
+    },
+    {
+      "colors": {
+        "primary": "#635BFF"
+      },
+      "name": "Stripe",
+      "description": "Stripe design system",
+      "design_md_url": "https://getdesign.md/stripe/design-md",
+      "category": "fintech",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "stripe"
+    },
+    {
+      "colors": {
+        "primary": "#3ECF8E"
+      },
+      "name": "Supabase",
+      "description": "Supabase design system",
+      "design_md_url": "https://getdesign.md/supabase/design-md",
+      "category": "backend",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "supabase"
+    },
+    {
+      "colors": {
+        "primary": "#1A1A1A"
+      },
+      "name": "Superhuman",
+      "description": "Superhuman design system",
+      "design_md_url": "https://getdesign.md/superhuman/design-md",
+      "category": "productivity",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "superhuman"
+    },
+    {
+      "colors": {
+        "primary": "#CC0000"
+      },
+      "name": "Tesla",
+      "description": "Tesla design system",
+      "design_md_url": "https://getdesign.md/tesla/design-md",
+      "category": "automotive",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "tesla"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "Together AI",
+      "description": "Together AI design system",
+      "design_md_url": "https://getdesign.md/together.ai/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "together.ai"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "Uber",
+      "description": "Uber design system",
+      "design_md_url": "https://getdesign.md/uber/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "uber"
+    },
+    {
+      "colors": {
+        "primary": "#FFFFFF"
+      },
+      "name": "Vercel",
+      "description": "Vercel design system",
+      "design_md_url": "https://getdesign.md/vercel/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "vercel"
+    },
+    {
+      "colors": {
+        "primary": "#00D4FF"
+      },
+      "name": "VoltAgent",
+      "description": "VoltAgent design system",
+      "design_md_url": "https://getdesign.md/voltagent/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "voltagent"
+    },
+    {
+      "colors": {
+        "primary": "#01A4B4"
+      },
+      "name": "Warp",
+      "description": "Warp design system",
+      "design_md_url": "https://getdesign.md/warp/design-md",
+      "category": "dev-tools",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "warp"
+    },
+    {
+      "colors": {
+        "primary": "#4353FF"
+      },
+      "name": "Webflow",
+      "description": "Webflow design system",
+      "design_md_url": "https://getdesign.md/webflow/design-md",
+      "category": "design",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "webflow"
+    },
+    {
+      "colors": {
+        "primary": "#00C2FF"
+      },
+      "name": "Wise",
+      "description": "Wise design system",
+      "design_md_url": "https://getdesign.md/wise/design-md",
+      "category": "fintech",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "wise"
+    },
+    {
+      "colors": {
+        "primary": "#000000"
+      },
+      "name": "x.ai",
+      "description": "x.ai design system",
+      "design_md_url": "https://getdesign.md/x.ai/design-md",
+      "category": "ai-llm",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "x.ai"
+    },
+    {
+      "colors": {
+        "primary": "#FF4A00"
+      },
+      "name": "Zapier",
+      "description": "Zapier design system",
+      "design_md_url": "https://getdesign.md/zapier/design-md",
+      "category": "retail",
+      "tags": [
+        "ui",
+        "design-system"
+      ],
+      "slug": "zapier"
+    }
+  ]
+}

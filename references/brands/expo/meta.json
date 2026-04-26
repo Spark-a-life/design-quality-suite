@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/expo/design-md",
+  "category": "dev-tools",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#000020"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "expo",
+  "name": "Expo"
+}

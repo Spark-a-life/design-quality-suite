@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/intercom/design-md",
+  "category": "retail",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#1F8DED"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "intercom",
+  "name": "Intercom"
+}

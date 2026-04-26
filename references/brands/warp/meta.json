@@ -1,0 +1,26 @@
+{
+  "category": "dev-tools",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "warp",
+  "design_system": "https://getdesign.md/warp/design-md",
+  "name": "Warp",
+  "tokens": {
+    "color": {
+      "primary": "#01A4B4",
+      "background": "#0D0D0D"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

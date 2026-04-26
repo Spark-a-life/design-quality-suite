@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/mistral.ai/design-md",
+  "category": "ai-llm",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#1A1A1A"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "mistral.ai",
+  "name": "Mistral AI"
+}

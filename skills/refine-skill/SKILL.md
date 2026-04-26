@@ -1,16 +1,24 @@
-# /refine -- Existing Project Refinement Surface
+---
+name: refine-skill
+description: >
+  Design Quality Suite skill for improving an existing website or app in place.
+  Use when the task requires scan, diagnose, fix, and verify without rewriting
+  the current stack.
+metadata:
+  version: "1.1.0"
+  canonical_repo: "ape-community/design-quality-suite"
+  engine: "design-quality-core v1.1.0"
+  surface: "refine"
+  created: "2026-03-31"
+  updated: "2026-04-11"
+---
 
-**Engine:** design-quality-core v1.0.0
+# refine-skill -- canonical surface
 
-When invoked, this surface upgrades an existing website or app without breaking
-its current working structure.
+Read `../../.claude/commands/design-quality-core.md` first and follow its
+loading order exactly (v1.1.0 includes brand dispatch).
 
-## Read order
-
-1. `.claude/commands/design-quality-core.md`
-2. `references/shared-doctrine.md`
-3. one stack reference (`references/stack-react-vite-css.md` or `references/stack-next-tailwind.md`)
-4. one surface reference (`references/dashboard-mode.md` or `references/landing-mode.md`)
+Then apply this surface.
 
 ## Workflow
 
@@ -27,12 +35,24 @@ Always work in this order:
 4. **Verify**
    Run the project checks that exist and report the outcome.
 
+## Brand Flag
+
+Use `--brand` to apply brand design tokens during refinement:
+
+```
+/refine --brand figma
+/refine --brand stripe
+```
+
+Brand tokens override defaults for: colors, typography, spacing, patterns.
+
 ## Design intent
 
 - Improve the project in place.
 - Keep the current stack unless there is a proven reason to change it.
 - Prefer modular extraction, layout cleanup, and state completion over broad
   rewrites.
+- If `--brand` flag used: align improvements to brand's design system tokens.
 
 ## Output rules
 

@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/ollama/design-md",
+  "category": "ai-llm",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#FFFFFF"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "ollama",
+  "name": "Ollama"
+}

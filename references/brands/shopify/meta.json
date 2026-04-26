@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/shopify/design-md",
+  "category": "retail",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#96BF48"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "shopify",
+  "name": "Shopify"
+}

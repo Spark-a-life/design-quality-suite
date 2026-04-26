@@ -1,0 +1,26 @@
+{
+  "category": "design",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "framer",
+  "design_system": "https://getdesign.md/framer/design-md",
+  "name": "Framer",
+  "tokens": {
+    "color": {
+      "primary": "#00E5FF",
+      "background": "#0A0A0A"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

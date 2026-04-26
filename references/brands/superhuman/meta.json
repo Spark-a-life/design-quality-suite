@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/superhuman/design-md",
+  "category": "productivity",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#1A1A1A"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "superhuman",
+  "name": "Superhuman"
+}

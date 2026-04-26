@@ -1,0 +1,26 @@
+{
+  "category": "fintech",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "stripe",
+  "design_system": "https://getdesign.md/stripe/design-md",
+  "name": "Stripe",
+  "tokens": {
+    "color": {
+      "primary": "#635BFF",
+      "background": "#FFFFFF"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

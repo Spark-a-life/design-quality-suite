@@ -1,0 +1,26 @@
+{
+  "category": "dev-tools",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "raycast",
+  "design_system": "https://getdesign.md/raycast/design-md",
+  "name": "Raycast",
+  "tokens": {
+    "color": {
+      "primary": "#FFFFFF",
+      "background": "#1C1C1E"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}

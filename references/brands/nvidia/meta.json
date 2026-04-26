@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/nvidia/design-md",
+  "category": "automotive",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#76B900"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "nvidia",
+  "name": "NVIDIA"
+}

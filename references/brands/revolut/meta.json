@@ -1,0 +1,25 @@
+{
+  "design_system": "https://getdesign.md/revolut/design-md",
+  "category": "fintech",
+  "patterns": {
+    "button": "rounded, brand-colored",
+    "input": "bordered, minimal"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "tokens": {
+    "color": {
+      "primary": "#008062"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "brand": "revolut",
+  "name": "Revolut"
+}

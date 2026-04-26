@@ -1,0 +1,26 @@
+{
+  "brand": "github",
+  "tokens": {
+    "color": {
+      "background": "#0D1117",
+      "primary": "#238636"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  },
+  "patterns": {
+    "input": "bordered, dark-mode",
+    "button": "rounded, green-accented"
+  },
+  "tags": [
+    "version-control",
+    "devops"
+  ],
+  "category": "dev-tools",
+  "name": "GitHub",
+  "design_system": "https://getdesign.md/github/design-md"
+}

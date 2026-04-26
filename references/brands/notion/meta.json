@@ -1,0 +1,26 @@
+{
+  "category": "productivity",
+  "patterns": {
+    "input": "bordered, minimal",
+    "button": "rounded, brand-colored"
+  },
+  "tags": [
+    "ui",
+    "design-system"
+  ],
+  "brand": "notion",
+  "design_system": "https://getdesign.md/notion/design-md",
+  "name": "Notion",
+  "tokens": {
+    "color": {
+      "primary": "#FFFFFF",
+      "background": "#FFFFFF"
+    },
+    "typography": {
+      "font": "Inter, system-ui, sans-serif"
+    },
+    "spacing": {
+      "base": "4px"
+    }
+  }
+}
